@@ -1,1 +1,7 @@
 /* This is a single-line comment for linking issue and pull request testing */
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(233, 229, 17);
+}
+
