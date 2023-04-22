@@ -1,7 +1,48 @@
 /* This is a single-line comment for linking issue and pull request testing */
+
 h1 {
     text-align: center;
     text-decoration: underline;
-    background-color: rgb(233, 229, 17);
+    background-color: gold;
+}
+
+.attendance {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+article p {
+    color: #00008B;
+    margin: 1cm 2.5% 0.5in 2.5%;
+}
+
+section > p {
+    margin-top: 1cm;
+    margin-bottom: 0.5in;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+p ~ video {
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 1.5%;
+    padding-bottom: 2%;
+    width: 50vw;
+    height: 50vh;
+}
+
+ol {
+    padding: 0.5% 0% 0.5% 5%;
+    color : gold
+}
+
+li.mention{
+    background-color:green;
+    width: 5em;
+}
+
+li.omit{
+    background-color: rgb(178, 36, 14);
+    width: 5em;
 }
 
