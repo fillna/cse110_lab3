@@ -2,6 +2,7 @@
 
 * {
     font-size: 24px;
+    background-color: pink;
 }
 
 h1 {
@@ -10,13 +11,61 @@ h1 {
     background-color: gold;
 }
 
-.attendance {
-    font-family: 'Roboto Condensed', sans-serif;
+label[for = "comment"]{
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-#summary{
+.attendance {
+    font-family: 'Roboto Condensed', sans-serif;
     position: sticky;
     top: 0;
+}
+
+.flex_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex_container > label {
+    padding: 20px;
+    flex-grow: 5;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.grid-item-note {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color: orange;
+}
+
+.grid-item4 {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color: orange;
+}
+
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    background-color: antiquewhite;
 }
 
 i, b{
@@ -81,3 +130,9 @@ button:hover {
 button:active {
     box-shadow: 2px 2px 5px aqua;
 }
+
+@media screen and (min-width: 1500px) {
+    * {
+      background-color: aliceblue;
+    }
+  }
