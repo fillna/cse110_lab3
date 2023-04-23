@@ -6,6 +6,16 @@ h1 {
     background-color: gold;
 }
 
+i {
+    color: #00008B;
+    display: inline-block;
+}
+
+em {
+    color: brown;
+    display: block;
+}
+
 .attendance {
     font-family: 'Roboto Condensed', sans-serif;
 }
