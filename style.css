@@ -74,3 +74,10 @@ li.omit{
     width: 5em;
 }
 
+button:hover {
+    background-color: aqua;
+}
+
+button:active {
+    box-shadow: 2px 2px 5px aqua;
+}
