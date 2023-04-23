@@ -1,23 +1,32 @@
 /* This is a single-line comment for linking issue and pull request testing */
 
+* {
+    font-size: 24px;
+}
+
 h1 {
     text-align: center;
     text-decoration: underline;
     background-color: gold;
 }
 
-i {
+.attendance {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#summary{
+    position: sticky;
+    top: 0;
+}
+
+i, b{
     color: #00008B;
     display: inline-block;
 }
 
-em {
+em, strong {
     color: brown;
     display: block;
-}
-
-.attendance {
-    font-family: 'Roboto Condensed', sans-serif;
 }
 
 article p {
@@ -50,7 +59,8 @@ header + p {
 }
 
 ol {
-    padding: 0.5% 0% 0.5% 5%;
+    position: relative;
+    left: 5%;
     color : gold
 }
 
