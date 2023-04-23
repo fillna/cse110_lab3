@@ -34,6 +34,23 @@
                 </ul>
                 <hr>
             </div>
+
+            <h1>Calendar:</h1>
+            <div class="grid-container">
+                <div class="grid-item">Jan</div>
+                <div class="grid-item">Feb</div>
+                <div class="grid-item">Mar</div>  
+                <div class="grid-item4">Apr</div>
+                <div class="grid-item-note">ToDo:</div>
+                <div class="grid-item">May</div>
+                <div class="grid-item">Jun</div>  
+                <div class="grid-item">Jul</div>
+                <div class="grid-item">Aug</div>
+                <div class="grid-item">Sep</div>  
+                <div class="grid-item">Oct</div>
+                <div class="grid-item">Nov</div>
+                <div class="grid-item">Dec</div>
+            </div>
             
             <div>
                 <h1>Meeting Content:</h1>
@@ -155,12 +172,14 @@
                 
 
                 <p>How useful is this meeting record?</p>
-                <input type="radio" id="useful" name="userful" value="useful">
-                <label for="useful"> Useful</label><br>
-                <input type="radio" id="neither" name="neither" value="neither">
-                <label for="neither"> Neither</label><br>
-                <input type="radio" id="unuseful" name="unuseful" value="unuseful">
-                <label for="unuseful"> Not Useful</label><br><br>
+                <div class="flex_container">
+                    <input type="radio" id="useful" name="userful" value="useful">
+                    <label for="useful"> Useful</label><br>
+                    <input type="radio" id="neither" name="neither" value="neither">
+                    <label for="neither"> Neither</label><br>
+                    <input type="radio" id="unuseful" name="unuseful" value="unuseful">
+                    <label for="unuseful"> Not Useful</label><br><br>
+                </div>
 
                 <button type="button" onclick="alert('Thank you for your feedback!')">Submit</button>
 
