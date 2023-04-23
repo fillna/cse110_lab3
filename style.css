@@ -1,7 +1,7 @@
 /* This is a single-line comment for linking issue and pull request testing */
 
 * {
-    font-size: 24px;
+    font-size: 18px;
     background-color: pink;
 }
 
@@ -43,7 +43,7 @@ label[for = "comment"]{
 
 .grid-item-note {
     padding: 20px;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     grid-row-start: 2;
     grid-row-end: 5;
@@ -54,7 +54,7 @@ label[for = "comment"]{
 
 .grid-item4 {
     padding: 20px;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.8);
     background-color: orange;
@@ -62,7 +62,7 @@ label[for = "comment"]{
 
 .grid-item {
     padding: 20px;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.8);
     background-color: antiquewhite;
@@ -131,7 +131,7 @@ button:active {
     box-shadow: 2px 2px 5px aqua;
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 500px) {
     * {
       background-color: aliceblue;
     }
